@@ -21,3 +21,13 @@ import TradingViewWidget from "svelte-tradingview-widget";
 ```
 
 All given props are passed on to the widget config. See [this page](https://www.tradingview.com/widget/advanced-chart/) for the TradingView Advanced Real-Time Chart API.
+
+### Advanced example
+
+```javascript
+import TradingViewWidget from "svelte-tradingview-widget";
+
+let options = { symbol: "BINANCE:BTCUSDT", theme: "dark", autosize: true, locale: "fr" };
+
+<TradingViewWidget {options} />;
+```
