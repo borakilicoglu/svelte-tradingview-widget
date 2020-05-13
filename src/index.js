@@ -1,3 +1,3 @@
-import SvelteTradingView from "./SvelteTradingView.svelte";
+import TradingViewWidget from "./TradingViewWidget.svelte";
 
-export default SvelteTradingView;
+export default TradingViewWidget;
