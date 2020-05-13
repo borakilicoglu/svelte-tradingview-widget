@@ -9,3 +9,15 @@ Svelte component for rendering the [TradingView Advanced Real-Time Chart Widget]
 `yarn add svelte-tradingview-widget`
 or
 `npm install --save svelte-tradingview-widget`
+
+## Usage
+
+### Basic example
+
+```javascript
+import TradingViewWidget from "svelte-tradingview-widget";
+
+<TradingViewWidget />;
+```
+
+All given props are passed on to the widget config. See [this page](https://www.tradingview.com/widget/advanced-chart/) for the TradingView Advanced Real-Time Chart API.
