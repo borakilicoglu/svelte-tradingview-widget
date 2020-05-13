@@ -2,7 +2,7 @@
   import { onMount } from "svelte";
   export let options = Object;
   const SCRIPT_ID = "tradingview-widget-script";
-  const CONTAINER_ID = "svelte-trading-view";
+  const CONTAINER_ID = "svelte-tradingview-widget";
 
   onMount(() => {
     appendScript(initWidget);

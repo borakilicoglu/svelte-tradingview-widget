@@ -4,10 +4,10 @@ import resolve from "rollup-plugin-node-resolve";
 const pkg = require("./package.json");
 
 export default {
-  input: "src/SvelteTradingView.svelte",
+  input: "src/TradingViewWidget.svelte",
   output: [
     { file: pkg.module, format: "en" },
-    { file: pkg.main, format: "umd", name: "SvelteTradingView" },
+    { file: pkg.main, format: "umd", name: "TradingViewWidget" },
   ],
   plugins: [svelte(), resolve()],
 };
