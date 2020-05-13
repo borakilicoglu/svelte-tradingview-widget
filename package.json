@@ -1,6 +1,6 @@
 {
   "name": "svelte-tradingview-widget",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Svelte component for rendering the TradingView Advanced Real-Time Chart Widget.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

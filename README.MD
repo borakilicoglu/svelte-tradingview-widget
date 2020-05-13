@@ -30,4 +30,4 @@ let options = { symbol: "BINANCE:BTCUSDT", theme: "dark", autosize: true, locale
 <TradingViewWidget {options} />;
 ```
 
-All given props are passed on to the widget config. See [this page](https://www.tradingview.com/widget/advanced-chart/) for the TradingView Advanced Real-Time Chart API.
+All given props are within the options passed on to the widget config. See [this page](https://www.tradingview.com/widget/advanced-chart/) for the TradingView Advanced Real-Time Chart API.
