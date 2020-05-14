@@ -20,7 +20,7 @@ import TradingViewWidget from "svelte-tradingview-widget";
 <TradingViewWidget />;
 ```
 
-Define all settings into properties and then pass them to the component. See [this page](https://www.tradingview.com/widget/advanced-chart/) for the TradingView Advanced Real-Time Chart API.
+Define all properties into options and then pass them to the component. See [this page](https://www.tradingview.com/widget/advanced-chart/) for the TradingView Advanced Real-Time Chart API.
 
 ### Advanced example
 
