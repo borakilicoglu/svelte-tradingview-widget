@@ -4,7 +4,7 @@
 
 Svelte component for rendering the [TradingView Advanced Real-Time Chart Widget](https://www.tradingview.com/widget/advanced-chart/).
 
-![ScreenShot](https://ibb.co/bQSXhFB)
+![ScreenShot](https://drive.google.com/open?id=1CxmL5GTuZ5MhVo0uAMqALLa0SGb2a6Qd)
 
 ## Install
 
