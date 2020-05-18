@@ -3,7 +3,7 @@
 > Svelte component for rendering the [TradingView Advanced Real-Time Chart Widget](https://www.tradingview.com/widget/advanced-chart/).
 
 [![npm](https://img.shields.io/npm/v/svelte-tradingview-widget.svg?style=for-the-badge)](https://www.npmjs.com/package/svelte-tradingview-widget)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)](https://github.com/borakilicoglu/svelte-tradingview-widget/master/LICENSE.md)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)](https://github.com/borakilicoglu/svelte-tradingview-widget/blob/master/LICENSE.md)
 [![npm](https://img.shields.io/npm/dt/svelte-tradingview-widget.svg?style=for-the-badge)](https://www.npmjs.com/package/svelte-tradingview-widget)
 
 ![image](https://drive.google.com/uc?export=view&id=1PZSFVeGuw5PRhLZVDx63OP6KsRZpPFMA)
