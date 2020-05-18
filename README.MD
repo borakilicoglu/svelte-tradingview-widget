@@ -6,7 +6,7 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)](https://github.com/borakilicoglu/svelte-tradingview-widget/blob/master/LICENSE)
 [![npm](https://img.shields.io/npm/dt/svelte-tradingview-widget.svg?style=for-the-badge)](https://www.npmjs.com/package/svelte-tradingview-widget)
 
-![image](https://drive.google.com/uc?export=view&id=1PZSFVeGuw5PRhLZVDx63OP6KsRZpPFMA)
+![image](https://res.cloudinary.com/dvq6gu2yi/image/upload/v1589813755/68747470733a2f2f64726976652e676f6f676c652e636f6d2f75633f6578706f72743d766965772669643d31505a53465665477577355052684c5a56447836334f50364b73525a7050464d41.png)
 
 ## Install
 
