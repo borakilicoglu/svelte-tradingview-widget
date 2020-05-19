@@ -2,35 +2,23 @@
   import { onMount } from "svelte";
   export let options = Object;
   const SCRIPT_ID = "tradingview-widget-script";
-  const CONTAINER_ID = "svelte-tradingview-widget";
+  let CONTAINER_ID = "";
 
   onMount(() => {
+    CONTAINER_ID =
+      options && options.container_id
+        ? options.container_id
+        : "svelte-tradingview-widget;";
     appendScript(initWidget);
   });
 
-  function canUseDOM() {
-    return (
-      typeof window !== "undefined" &&
-      window.document &&
-      window.document.createElement
+  function initWidget() {
+    if (typeof TradingView === "undefined") {
+      return;
+    }
+    new window.TradingView.widget(
+      Object.assign({ container_id: CONTAINER_ID }, options)
     );
-  }
-
-  function getScriptElement() {
-    return document.getElementById(SCRIPT_ID);
-  }
-
-  function updateOnloadListener(onload) {
-    const script = getScriptElement();
-    const oldOnload = script.onload;
-    return (script.onload = () => {
-      oldOnload();
-      onload();
-    });
-  }
-
-  function scriptExists() {
-    return getScriptElement() !== null;
   }
 
   function appendScript(onload) {
@@ -41,7 +29,7 @@
 
     if (scriptExists()) {
       if (typeof TradingView === "undefined") {
-        this.updateOnloadListener(onload);
+        updateOnloadListener(onload);
         return;
       }
       onload();
@@ -56,12 +44,29 @@
     document.getElementsByTagName("head")[0].appendChild(script);
   }
 
-  function initWidget() {
-    if (typeof TradingView === "undefined") {
-      return;
-    }
+  function canUseDOM() {
+    return (
+      typeof window !== "undefined" &&
+      window.document &&
+      window.document.createElement
+    );
+  }
 
-    new window.TradingView.widget(Object.assign(CONTAINER_ID, options));
+  function scriptExists() {
+    return getScriptElement() !== null;
+  }
+
+  function getScriptElement() {
+    return document.getElementById(SCRIPT_ID);
+  }
+
+  function updateOnloadListener(onload) {
+    const script = getScriptElement();
+    const oldOnload = script.onload;
+    return (script.onload = () => {
+      oldOnload();
+      onload();
+    });
   }
 </script>
 
