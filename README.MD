@@ -8,6 +8,10 @@
 
 ![image](https://res.cloudinary.com/dvq6gu2yi/image/upload/v1589813755/68747470733a2f2f64726976652e676f6f676c652e636f6d2f75633f6578706f72743d766965772669643d31505a53465665477577355052684c5a56447836334f50364b73525a7050464d41.png)
 
+## Demo
+
+[https://borakilicoglu.github.io/svelte-tradingview-widget/](https://borakilicoglu.github.io/svelte-tradingview-widget/)
+
 ## Install
 
 `yarn add svelte-tradingview-widget`
