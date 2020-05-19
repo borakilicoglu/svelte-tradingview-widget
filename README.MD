@@ -10,7 +10,7 @@
 
 ## Demo
 
-[https://borakilicoglu.github.io/svelte-tradingview-widget/](https://borakilicoglu.github.io/svelte-tradingview-widget)
+[https://borakilicoglu.github.io/svelte-tradingview-widget](https://borakilicoglu.github.io/svelte-tradingview-widget)
 
 ## Install
 
