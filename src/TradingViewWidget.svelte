@@ -12,9 +12,21 @@
     appendScript(initWidget);
   });
 
+  let chart = null;
+  $: update(options)
+  
+  function update( options ){
+    try{
+      new window.TradingView.widget(
+        Object.assign({ container_id: CONTAINER_ID }, options)
+      );
+    } catch(e){
+
+    };
+  }
   function initWidget() {
     if (typeof TradingView !== "undefined") {
-      new window.TradingView.widget(
+      chart = new window.TradingView.widget(
         Object.assign({ container_id: CONTAINER_ID }, options)
       );
     }
