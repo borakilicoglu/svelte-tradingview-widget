@@ -1,6 +1,6 @@
 {
-  "name": "svelte-tradingview-widget",
-  "version": "2.3.0",
+  "name": "svelte-tradingview-component",
+  "version": "2.3.1",
   "description": "Svelte component for rendering the TradingView Advanced Real-Time Chart Widget.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -16,11 +16,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/borakilicoglu/svelte-tradingview-widget"
+    "url": "https://github.com/Your-Name-Here/svelte-tradingview-widget"
   },
   "homepage": "",
   "bugs": {
-    "url": "https://github.com/borakilicoglu/svelte-tradingview-widget/issues"
+    "url": "https://github.com/Your-Name-Here/svelte-tradingview-widget/issues"
   },
   "author": "Bora Kilicoglu",
   "license": "MIT",
